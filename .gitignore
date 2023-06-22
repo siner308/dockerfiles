@@ -1,0 +1,6 @@
+.idea
+
+*/.env
+
+mysql5.7/data
+mysql8.0/data
