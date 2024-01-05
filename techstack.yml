@@ -1,7 +1,8 @@
 repo_name: siner308/dockerfiles
 report_id: 64115623f8148201d820e8f37b4278f0
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T10:24:46+00:00'
+timestamp: '2024-01-05T08:40:37+00:00'
 requested_by: siner308
 provider: github
 branch: main
@@ -15,7 +16,8 @@ tools:
   category: Data Stores
   sub_category: SQL Database as a Service
   image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
-  detection_source: mysql8.0/docker-compose.yml
+  detection_source_url: https://github.com/siner308/dockerfiles/blob/main/mysql5.7/docker-compose.yml
+  detection_source: mysql5.7/docker-compose.yml
   last_updated_by: jeonghyun.an
   last_updated_on: 2023-06-22 11:27:15.000000000 Z
 - name: Git
@@ -26,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/siner308/dockerfiles
   detection_source: Repo Metadata
 - name: Adminer
   description: Full-featured database management tool written in PHP.
@@ -33,6 +36,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7285/icon.png
-  detection_source: mysql8.0/docker-compose.yml
+  detection_source_url: https://github.com/siner308/dockerfiles/blob/main/mysql5.7/docker-compose.yml
+  detection_source: mysql5.7/docker-compose.yml
   last_updated_by: jeonghyun.an
   last_updated_on: 2023-06-22 11:27:15.000000000 Z
